@@ -44,7 +44,7 @@ This guide explains how to set up and configure the `papirus_status.py` script a
    sudo nano /etc/systemd/system/papirus_status.service
    ```
 
-2. Add the following configuration to the file:
+2. Add the following configuration to the file (change your user if needed):
 
    ```ini
    [Unit]
@@ -54,8 +54,8 @@ This guide explains how to set up and configure the `papirus_status.py` script a
    [Service]
    ExecStart=/usr/bin/python3 /usr/local/bin/papirus_status.py
    Restart=always
-   User=root
-   Group=root
+   User=pi
+   Group=pi
 
    [Install]
    WantedBy=multi-user.target
