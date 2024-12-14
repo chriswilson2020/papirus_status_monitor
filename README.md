@@ -167,7 +167,3 @@ To stop and remove the service:
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Let me know if you need any further changes!
